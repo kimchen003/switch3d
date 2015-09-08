@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>3D</title>
+<script src="http://j5.dfcfw.com/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="js/switch3d.js"></script>
+<link rel="stylesheet" href="css/style2.css">
+</head>
+<body>
+<div class="bg"></div>
+<div id="switch" class="switch">
+    <div class="hd">
+        <div class="prev"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 10 28"><path d="M0.703 15q0-0.203 0.156-0.359l7.281-7.281q0.156-0.156 0.359-0.156t0.359 0.156l0.781 0.781q0.156 0.156 0.156 0.359t-0.156 0.359l-6.141 6.141 6.141 6.141q0.156 0.156 0.156 0.359t-0.156 0.359l-0.781 0.781q-0.156 0.156-0.359 0.156t-0.359-0.156l-7.281-7.281q-0.156-0.156-0.156-0.359z" fill="#000000"></path></svg></div>
+        <div class="next"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 10 28"><path d="M0.203 21.5q0-0.203 0.156-0.359l6.141-6.141-6.141-6.141q-0.156-0.156-0.156-0.359t0.156-0.359l0.781-0.781q0.156-0.156 0.359-0.156t0.359 0.156l7.281 7.281q0.156 0.156 0.156 0.359t-0.156 0.359l-7.281 7.281q-0.156 0.156-0.359 0.156t-0.359-0.156l-0.781-0.781q-0.156-0.156-0.156-0.359z" fill="#000000"></path></svg></div>
+    </div>
+    <div class="bd">
+
+    </div>
+</div>
+<div id="switch2" class="switch">
+    <div class="hd">
+        <div class="prev"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 10 28"><path d="M0.703 15q0-0.203 0.156-0.359l7.281-7.281q0.156-0.156 0.359-0.156t0.359 0.156l0.781 0.781q0.156 0.156 0.156 0.359t-0.156 0.359l-6.141 6.141 6.141 6.141q0.156 0.156 0.156 0.359t-0.156 0.359l-0.781 0.781q-0.156 0.156-0.359 0.156t-0.359-0.156l-7.281-7.281q-0.156-0.156-0.156-0.359z" fill="#000000"></path></svg></div>
+        <div class="next"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 10 28"><path d="M0.203 21.5q0-0.203 0.156-0.359l6.141-6.141-6.141-6.141q-0.156-0.156-0.156-0.359t0.156-0.359l0.781-0.781q0.156-0.156 0.359-0.156t0.359 0.156l7.281 7.281q0.156 0.156 0.156 0.359t-0.156 0.359l-7.281 7.281q-0.156 0.156-0.359 0.156t-0.359-0.156l-0.781-0.781q-0.156-0.156-0.156-0.359z" fill="#000000"></path></svg></div>
+    </div>
+    <div class="bd">
+
+    </div>
+</div>
+<script>
+$(function(){
+    $(".switch").Switch3d({
+        img : ['css/minion_1.jpg','css/minion_2.jpg','css/minion_3.jpg','css/minion_4.jpg','css/minion_5.jpg','css/minion_6.jpg','css/minion_7.jpg']
+    });
+});
+</script>
+</body>
+</html>
